@@ -1,0 +1,12 @@
+Source: ros-iron-opennav-coverage-demo
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <steve@opennav.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-nav2-bringup, ros-iron-nav2-util, ros-iron-opennav-coverage, ros-iron-opennav-coverage-bt, ros-iron-opennav-coverage-msgs, ros-iron-opennav-coverage-navigator, ros-iron-opennav-row-coverage, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-opennav-coverage-demo
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-iron-nav2-bringup, ros-iron-nav2-util, ros-iron-opennav-coverage, ros-iron-opennav-coverage-bt, ros-iron-opennav-coverage-msgs, ros-iron-opennav-coverage-navigator, ros-iron-opennav-row-coverage, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-ros-workspace
+Description: A demo using the Coverage Server, BT Nodes, and Coverage Navigator
