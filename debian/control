@@ -1,0 +1,12 @@
+Source: ros-iron-opennav-row-coverage
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <steve@opennav.org>
+Build-Depends: debhelper (>= 9.0.0), libtinyxml2-dev, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-fields2cover, ros-iron-nav2-util, ros-iron-opennav-coverage, ros-iron-opennav-coverage-msgs, ros-iron-rclcpp, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-opennav-row-coverage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml2-dev, ros-iron-fields2cover, ros-iron-nav2-util, ros-iron-opennav-coverage, ros-iron-opennav-coverage-msgs, ros-iron-rclcpp, ros-iron-ros-workspace
+Description: A coverage server based on pre-defined rows
